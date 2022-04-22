@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum App</title>
+</head>
+<body>
+    <main>
+        <div id="img"></div>
+        <div id="timer">
+            <div id="time">timer</div>
+            <div id="weather">
+                <span></span>
+                <br>
+                <span></span>
+            </div>
+        </div>
+    </main>
+    <aside>
+        <div id="user">
+            <form class="hidden" id="login-form">
+                <h3>what is your name?</h3>
+                <input 
+                    id="nameInput"
+                    required
+                    maxlength="15"
+                    type="text">
+                <input id="loginBtn" type="submit" value="login">
+            </form>        
+            <div class="hidden" id="greeting">
+                <h1></h1>
+                <button id="logoutBtn">Logout</button>
+            </div>
+        </div>
+        <div id="quote">
+            <span></span><br>
+            <span></span>
+            <button id="reloadBtn"></button>
+        </div>
+        <div id="toDoBox">
+            <div id="todo-form">
+                <form>
+                    <input type="text" placeholder="Write a To do List!">
+                </form>
+            </div>
+            <div id="todo-list">
+                <ul></ul>
+            </div>       
+        </div>
+    </aside>
+    <script src="js/background.js"></script>    
+    <script src="js/clock.js"></script>    
+    <script src="js/weather.js"></script> 
+    <script src="js/quotes.js"></script>    
+    <script src="js/greegings.js"></script>    
+    <script src="js/todo.js"></script>    
+</body>
+</html>
