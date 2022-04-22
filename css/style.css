@@ -1,0 +1,183 @@
+.hidden{
+    display: none;
+}
+/* 전체 구조 */
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    margin: 0;
+    height: 100%;
+}
+main{
+    width: 50%;
+    height: 100%;
+}
+aside{
+    width: 50%;
+    height: 100%;
+}
+
+/* main 구조 */
+#img{
+    display: flex;
+    height: 73%;
+}
+.img{
+    object-fit: cover;
+    overflow: hidden;
+    border: 10px solid white;
+    border-radius: 30px;
+}
+#timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25%;
+    background: linear-gradient(rgb(238, 202, 159),rgb(231, 191, 143));    
+    border: 10px solid white;
+    border-width: 0px 10px 10px 10px;
+    border-radius: 30px;
+
+}
+#time{
+    width: 60%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 90px;
+    color: rgb(255, 246, 235);
+    text-align: center;
+}
+#weather{
+    width: 40%;
+    font-family:'Lucida Sans'; 
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+/* aside 구조 */
+#user{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 215, 178);
+    border: solid white;
+    border-radius: 30px;
+    border-width: 10px 10px 10px 0px;
+    overflow: hidden;
+}
+#quote{
+    text-align: center;
+    width: 98%;
+    height: 18%;
+    padding-right: 3px;
+    border: 10px solid white;
+    border-radius: 30px;
+    border-width: 0px 10px 10px 0px;
+    background-color: rgb(255, 230, 200);
+}
+#toDoBox{
+    display: flex;
+    align-items: center;
+    height: 36%;
+    background-color: rgb(235, 200, 156);
+    border: 10px solid white;
+    border-radius: 30px;
+    border-width: 0px 10px 10px 0px;
+}
+
+#login-form > h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+#nameInput{
+    width: 500px;
+    height: 70px;
+    border: 0;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 40px;
+    color: rgb(176, 139, 94);
+}
+#loginBtn{
+    width: 200px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 40px;
+    color: rgb(255, 230, 200);
+    margin-left: 20px;
+}
+#logoutBtn{
+    width: 200px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 40px;
+    color: rgb(255, 230, 200);
+    margin-top: -700px;
+    margin-left: 500px;
+}
+.greetingText{
+    color: rgb(163, 130, 89);
+    font-size: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#quote > span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-size: 25px;
+    color: rgb(154, 140, 125);
+    margin-left: 30px;
+}
+#reloadBtn{
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(157, 157, 157);
+    border-radius: 15px;
+    background-color: beige;
+}
+
+#todo-form{
+    width: 60%;
+    height: 100%;
+}
+#todo-list{
+    width: 40%;
+    height: 100%;
+}
+#todo-form > form > input{
+    width: 400px;
+    height: 80px;
+    border: 0px solid white;
+    border-radius: 15px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    text-align: center;
+}
+
+#todo-list>ul{
+    list-style: none;
+    font-size: 30px;
+    margin-right: 20px;
+}
+.delBtn{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: white;
+    font-size: 0px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 40px;
+}
+.delBtnColor{
+    background: rgb(246, 77, 77);
+}
